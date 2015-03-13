@@ -1,5 +1,7 @@
 # k_means_ruby
 
+[![Build Status](https://travis-ci.org/sungwoncho/k_means_ruby.svg?branch=master)](https://travis-ci.org/sungwoncho/k_means_ruby)
+
 An implementation of k-means algorithm in Ruby.
 
 ## Definition
