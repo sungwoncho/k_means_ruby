@@ -9,7 +9,7 @@ describe KMeansRuby::Point do
   describe '#to_s' do
     it 'prints (x,y)' do
       point = KMeansRuby::Point.new(1,2)
-      expect(point.to_s).to eq '(1,2)'
+      expect(point.to_s).to eq '(1.0,2.0)'
     end
   end
 
