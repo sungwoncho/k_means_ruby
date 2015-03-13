@@ -1,7 +1,7 @@
 # k_means_ruby
 
 [![Build Status](https://travis-ci.org/sungwoncho/k_means_ruby.svg?branch=master)](https://travis-ci.org/sungwoncho/k_means_ruby)
-[![Coverage Status](https://coveralls.io/repos/sungwoncho/k_means_ruby/badge.svg)](https://coveralls.io/r/sungwoncho/k_means_ruby)
+[![Coverage Status](https://coveralls.io/repos/sungwoncho/k_means_ruby/badge.svg?branch=master)](https://coveralls.io/r/sungwoncho/k_means_ruby?branch=master)
 
 An implementation of k-means algorithm in Ruby.
 
