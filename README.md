@@ -9,17 +9,17 @@ K-means algorithm is a clustering algorithm for a Euclidean space. It assumes th
 * Choose k points that are likely to be in different clusters.
 * Make those the points centroids of clusters.
 * For the remaining points:
-- Find the centroid to which the point is closest.
-- Merge the point into that cluster.
-- Recalculate the centroid of that cluster.
+  * Find the centroid to which the point is closest.
+  * Merge the point into that cluster.
+  * Recalculate the centroid of that cluster.
 
 ## Use
 
-In your ruby console, require the main file.
+In your ruby console, require the main file:
 
 `require './lib/k_means_ruby.rb'`
 
-Define `Points` and `Clusters`.
+Define `Points` and `Clusters`:
 
 ```
 p1 = KMeansRuby::Point.new(1,2)
@@ -29,9 +29,9 @@ c1 = KMeansRuby::Cluster.new(p1)
 ...
 ```
 
-Instantiate the `Algorithm`
+Instantiate the `Algorithm`:
 
-algorithm = `KMeansRuby::Algorithm.new(points=[p1, p2], clusters=[c1])`
+`algorithm = KMeansRuby::Algorithm.new(points=[p1, p2], clusters=[c1])`
 
 Run the algorithm by calling `algorithm.run_once` or `algorithm.repeat_for(n)`
 
